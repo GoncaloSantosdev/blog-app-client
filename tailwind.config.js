@@ -8,7 +8,7 @@ export default {
         primary: {
           black: "#191919",
           gray: "#292929",
-          white: "#FFFFFF",
+          blue: "#0177ED",
         },
       },
       fontWeight: {

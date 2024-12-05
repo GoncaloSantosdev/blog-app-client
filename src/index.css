@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 .app-container {
-  @apply flex h-screen;
+  @apply flex h-screen bg-white;
 }
 
-.sidebar {
-  @apply w-[200px] bg-gray-100;
+.left-sidebar {
+  @apply w-[80px] bg-white hidden md:block border-r border-gray-100 sticky top-0 h-screen;
 }
 
 .main-content {
-  @apply flex-1 p-5;
+  @apply flex-1 p-5 overflow-y-auto;
 }
 
 .right-sidebar {
-  @apply w-[200px] bg-gray-100;
+  @apply w-[240px] bg-white hidden md:block border-l border-gray-100 sticky top-0 h-screen;
 }

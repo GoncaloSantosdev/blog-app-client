@@ -1,11 +1,13 @@
+// React Router
 import { Outlet } from "react-router-dom";
-import { RightSidebar, Sidebar } from "../components";
+// Components
+import { LeftSidebar, RightSidebar } from "..";
 
 const MainLayout = () => {
   return (
     <div className="app-container">
-      <div className="sidebar">
-        <Sidebar />
+      <div className="left-sidebar">
+        <LeftSidebar />
       </div>
       <main className="main-content">
         <Outlet />
