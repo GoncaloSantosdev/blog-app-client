@@ -37,16 +37,16 @@ const topics = [
 
 const RightSidebar = () => {
   return (
-    <div className="flex flex-col h-full py-6 px-2 gap-8">
+    <div className="flex flex-col h-full p-6 gap-8">
       {/* Top Creators Section */}
       <div>
-        <div className="flex items-center gap-2 mb-4 px-2">
+        <div className="flex items-center gap-2 mb-6">
           <Users className="w-5 h-5 text-primary-blue" />
           <h2 className="text-base font-semibold text-gray-900">
             Top Creators
           </h2>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-4">
           {topCreators.map((creator) => (
             <div
               key={creator.id}

@@ -12,9 +12,9 @@ const LeftSidebar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
-    <div className="flex flex-col h-full py-6 px-2">
+    <div className="flex flex-col h-full p-6">
       {/* Logo and Brand */}
-      <div className="mb-6 flex items-center justify-center md:justify-start px-2">
+      <div className="mb-8 flex items-center justify-center md:justify-start">
         <Feather className="w-6 h-6 md:w-5 md:h-5 stroke-[1.5px] text-primary-blue" />
         <span className="hidden md:block text-lg font-semibold text-gray-900 ml-2">
           Blogify
@@ -22,8 +22,8 @@ const LeftSidebar = () => {
       </div>
 
       {/* User Profile */}
-      <div className="px-2 mb-6">
-        <div className="flex items-center justify-center md:justify-start gap-2.5  rounded-lg md:hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+      <div className="mb-8">
+        <div className="flex items-center justify-center md:justify-start gap-2.5 rounded-lg md:hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
           <img
             src="https://via.placeholder.com/32"
             alt="User"
@@ -40,7 +40,7 @@ const LeftSidebar = () => {
       <Navbar />
 
       {/* Bottom Section */}
-      <div className="px-2 space-y-1 mt-auto pt-6">
+      <div className="space-y-4 mt-auto">
         <button
           onClick={() => setIsDarkMode(!isDarkMode)}
           className={`${linkClass} text-gray-700 w-full justify-center md:justify-start`}

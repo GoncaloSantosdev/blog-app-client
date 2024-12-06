@@ -1,7 +1,16 @@
 // React Router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Pages
-import { ErrorPage, HomePage, PostDetailsPage, ProfilePage } from "./pages";
+import {
+  ErrorPage,
+  HomePage,
+  PostDetailsPage,
+  ProfilePage,
+  ExplorePage,
+  PeoplePage,
+  SavedPostsPage,
+  CreatePostPage,
+} from "./pages";
 // Components
 import { MainLayout } from "./components";
 
@@ -16,8 +25,24 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
+        path: "/explore",
+        element: <ExplorePage />,
+      },
+      {
+        path: "/people",
+        element: <PeoplePage />,
+      },
+      {
         path: "/post/:id",
         element: <PostDetailsPage />,
+      },
+      {
+        path: "/saved",
+        element: <SavedPostsPage />,
+      },
+      {
+        path: "/create",
+        element: <CreatePostPage />,
       },
       {
         path: "/profile",

@@ -7,13 +7,13 @@
 }
 
 .left-sidebar {
-  @apply w-[70px] md:w-[240px] bg-white border-r border-gray-100 sticky top-0 h-screen;
+  @apply w-[70px] md:w-[240px] bg-white border-r border-gray-100 sticky top-0 h-screen overflow-y-auto;
 }
 
 .main-content {
-  @apply flex-1 p-5 overflow-y-auto;
+  @apply flex-1 px-6 py-6 overflow-y-auto;
 }
 
 .right-sidebar {
-  @apply w-[320px] bg-white hidden lg:block border-l border-gray-100 sticky top-0 h-screen;
+  @apply w-[320px] bg-white hidden lg:block border-l border-gray-100 sticky top-0 h-screen overflow-y-auto;
 }

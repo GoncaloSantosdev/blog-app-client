@@ -6,3 +6,4 @@ export { default as RightSidebar } from "./sidebars/RightSidebar";
 // Common
 export { default as Navbar } from "./common/Navbar";
 export { default as Footer } from "./common/Footer";
+export { default as BlogPost } from "./common/BlogPost";
