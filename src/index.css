@@ -7,7 +7,7 @@
 }
 
 .left-sidebar {
-  @apply w-[80px] bg-white hidden md:block border-r border-gray-100 sticky top-0 h-screen;
+  @apply w-[70px] md:w-[240px] bg-white border-r border-gray-100 sticky top-0 h-screen;
 }
 
 .main-content {
@@ -15,5 +15,5 @@
 }
 
 .right-sidebar {
-  @apply w-[240px] bg-white hidden md:block border-l border-gray-100 sticky top-0 h-screen;
+  @apply w-[320px] bg-white hidden lg:block border-l border-gray-100 sticky top-0 h-screen;
 }
