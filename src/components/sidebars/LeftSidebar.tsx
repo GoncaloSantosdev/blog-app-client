@@ -27,7 +27,7 @@ const LeftSidebar = () => {
           <img
             src="https://via.placeholder.com/32"
             alt="User"
-            className="w-8 h-8 rounded-full ring-2 ring-gray-100"
+            className="md:w-8 md:h-8 rounded-full ring-gray-100"
           />
           <div className="hidden md:block flex-1 truncate">
             <h3 className="font-medium text-gray-900 text-sm">John Doe</h3>

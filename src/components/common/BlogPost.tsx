@@ -1,3 +1,4 @@
+// Icons
 import { Heart, MessageCircle, Share2 } from "lucide-react";
 
 interface BlogPostProps {
@@ -40,7 +41,9 @@ const BlogPost = ({
 
         {/* Post Content */}
         <div className="space-y-3 mb-4">
-          <h2 className="text-xl font-semibold text-gray-900">{title}</h2>
+          <h2 className="text-base md:text-xl font-semibold text-gray-900">
+            {title}
+          </h2>
           <p className="text-gray-600">{description}</p>
         </div>
 

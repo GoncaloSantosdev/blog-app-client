@@ -1,5 +1,9 @@
-import BlogPost from "../components/common/BlogPost";
+// Components
+import { BlogPost, Button } from "../components";
+// Data
 import posts from "../data/posts";
+// Icons
+import { Plus } from "lucide-react";
 
 const HomePage = () => {
   return (
@@ -10,9 +14,7 @@ const HomePage = () => {
           <h1 className="text-xl md:text-2xl font-bold text-gray-900">
             Home Feed
           </h1>
-          <button className="px-4 py-2 text-sm font-medium text-white bg-primary-blue rounded-lg hover:bg-blue-600 transition-colors duration-200">
-            Create Post
-          </button>
+          <Button icon={<Plus className="w-4 h-4" />}>Create Post</Button>
         </div>
 
         {/* Posts Feed */}
